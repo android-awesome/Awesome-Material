@@ -1,4 +1,4 @@
-package com.sample.material.awesome.android;
+package com.material.awesome.android.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
