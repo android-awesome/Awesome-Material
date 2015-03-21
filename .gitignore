@@ -24,11 +24,11 @@ local.properties
 .project
 
 # Android Studio
-.idea
+/.idea/
 .gradle
 /*/local.properties
 /*/out
-build
+/build
 /*/*/production
 *.iml
 *.iws
@@ -36,3 +36,6 @@ build
 *~
 *.swp
 
+AndroidAwesomeMaterial/.idea/*
+AndroidAwesomeMaterial/app/
+AndroidAwesomeMaterial/sample/.gitignore
