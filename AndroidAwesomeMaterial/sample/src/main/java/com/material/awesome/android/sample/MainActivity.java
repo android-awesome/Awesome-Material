@@ -1,9 +1,12 @@
-package com.cyd.awesome.android.androidawesomematerial;
+package com.material.awesome.android.sample;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.sample.material.awesome.android.R;
+
 
 public class MainActivity extends ActionBarActivity {
 
@@ -12,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

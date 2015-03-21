@@ -1,4 +1,4 @@
-package com.cyd.awesome.android.androidawesomematerial;
+package com.material.awesome.android.cyd;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
