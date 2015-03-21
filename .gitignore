@@ -16,7 +16,7 @@ gen/
 # Local configuration file (sdk path, etc)
 local.properties
 
-# Windows thumbnail db
+# OS X
 .DS_Store
 
 # Eclipse project files
