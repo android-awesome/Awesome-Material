@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.0"
 
     defaultConfig {
-        applicationId "material.awesome.android.cyd.com.awesomematerial"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
