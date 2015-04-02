@@ -3,6 +3,10 @@
 
 **Work in Progress**
 
+### Questions
+
+1. should CharacterMap be a class for each font type instead of one massive doc? Should they be a map instead of an enum.
+
 ###First Version Features
 
 - [ ] TextView
@@ -24,10 +28,17 @@
 
 
 
-###Links:
+### Font References
+
+* Font Awesome - http://fortawesome.github.io/Font-Awesome/
+* Material Design Iconic Font - http://zavoloklom.github.io/material-design-iconic-font/
+* Pixeden - http://www.pixeden.com/icon-fonts/filled-7-icon-font-set
+
+
+
+
+### Other potential things to include:
 
 * Material Design Docs - https://www.google.com/design/spec/style/color.html#
 * Bootstrap Docs - http://getbootstrap.com/
-* Font Awesome - http://fortawesome.github.io/Font-Awesome/
-* Material Design Iconic Font - http://zavoloklom.github.io/material-design-iconic-font/
 * Ripple - https://github.com/traex/RippleEffect
