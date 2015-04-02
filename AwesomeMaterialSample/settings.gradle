@@ -1,4 +1,4 @@
 include ':app'
 
-include ':awesomematerial'
+include 'awesomematerial'
 project(':awesomematerial').projectDir = new File(settingsDir, '../AwesomeMaterial/awesomematerial')

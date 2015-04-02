@@ -4,36 +4,34 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
+import material.awesome.android.cyd.com.awesomematerial.FontCharacterMaps;
+import material.awesome.android.cyd.com.awesomematerial.FontUtil;
 
 public class MainActivity extends ActionBarActivity {
+
+    private TextView lblTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
+
+        lblTest = (TextView)findViewById(R.id.lblTest);
+
+
+        lblTest.setTypeface(FontUtil.getFontAwesome(MainActivity.this));
+
+        lblTest.setText(FontCharacterMaps.FontAwesome.FA_SMILE_O.toString());
+
+       //  lblTest.setText("DANIELLE");
+
+
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }
