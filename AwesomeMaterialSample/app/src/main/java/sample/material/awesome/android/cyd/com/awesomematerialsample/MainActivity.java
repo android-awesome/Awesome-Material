@@ -20,12 +20,12 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
 
-        lblTest = (TextView)findViewById(R.id.lblTest);
+       // lblTest = (TextView)findViewById(R.id.lblTest);
 
 
-        lblTest.setTypeface(FontUtil.getFontAwesome(MainActivity.this));
+       // lblTest.setTypeface(FontUtil.getFontAwesome(MainActivity.this));
 
-        lblTest.setText(FontCharacterMaps.FontAwesome.FA_SMILE_O.toString());
+       // lblTest.setText(FontCharacterMaps.FontAwesome.FA_SMILE_O.toString());
 
        //  lblTest.setText("DANIELLE");
 
