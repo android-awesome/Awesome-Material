@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.Typeface;
 import android.util.Log;
 
-import java.lang.reflect.Type;
 
 /**
  * Created by daniellevass on 02/04/15.

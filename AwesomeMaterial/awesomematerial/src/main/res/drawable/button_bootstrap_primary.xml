@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/bootstrap_primary_pressed" />
+            <stroke android:width="1dp" android:color="@color/bootstrap_primary_pressed_border" />
+        </shape>
+    </item>
+
+    <!-- disabled-->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/bootstrap_primary_disabled" />
+            <stroke android:width="1dp" android:color="@color/bootstrap_primary_disabled_border" />
+        </shape>
+    </item>
+
+    <!-- default-->
+    <item>
+        <shape>
+            <solid android:color="@color/bootstrap_primary" />
+            <stroke android:width="1dp" android:color="@color/bootstrap_primary_border" />
+        </shape>
+    </item>
+
+
+
+</selector>
