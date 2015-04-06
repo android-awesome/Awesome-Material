@@ -1,0 +1,358 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+
+    <!-- first row -->
+
+    <Button
+            android:id="@+id/btnBootstrapDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            android:background="@drawable/button_bootstrap_rounded_default"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnBootstrapPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primary"
+            android:background="@drawable/button_bootstrap_rounded_primary"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnBootstrapSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:background="@drawable/button_bootstrap_rounded_success"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+
+    <!-- second row -->
+
+    <Button
+            android:id="@+id/btnBootstrapInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:background="@drawable/button_bootstrap_rounded_info"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnBootstrapDefault"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnBootstrapWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            android:background="@drawable/button_bootstrap_rounded_warning"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnBootstrapDefault"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnBootstrapDanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danger"
+            android:background="@drawable/button_bootstrap_rounded_danger"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnBootstrapDefault"
+            android:layout_alignParentRight="true"
+            />
+
+    <!-- third row -->
+
+    <Button
+            android:id="@+id/btnBootstrapInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inverse"
+            android:background="@drawable/button_bootstrap_rounded_inverse"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnBootstrapWarning"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/btnBootstrapInverse"
+            />
+
+
+    <!-- fourth row -->
+
+    <Button
+            android:id="@+id/btnMaterialRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:background="@drawable/button_material_rounded_red"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/divider"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pink"
+            android:background="@drawable/button_material_rounded_pink"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/divider"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purple"
+            android:background="@drawable/button_material_rounded_purple"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/divider"
+            android:layout_alignParentRight="true"
+            />
+
+    <!--fifth row-->
+
+    <Button
+            android:id="@+id/btnMaterialDeepPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deep Purple"
+            android:background="@drawable/button_material_rounded_deep_purple"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialRed"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialIndigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indigo"
+            android:background="@drawable/button_material_rounded_indigo"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialRed"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:background="@drawable/button_material_rounded_blue"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialRed"
+            android:layout_alignParentRight="true"
+            />
+
+    <!--sixth row-->
+
+    <Button
+            android:id="@+id/btnMaterialLightBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Blue"
+            android:background="@drawable/button_material_rounded_light_blue"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialDeepPurple"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialCyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cyan"
+            android:background="@drawable/button_material_rounded_cyan"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialDeepPurple"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialTeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teal"
+            android:background="@drawable/button_material_rounded_teal"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialDeepPurple"
+            android:layout_alignParentRight="true"
+            />
+
+
+    <!-- seventh row -->
+
+    <Button
+            android:id="@+id/btnMaterialGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:background="@drawable/button_material_rounded_green"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialLightBlue"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialLightGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Green"
+            android:background="@drawable/button_material_rounded_light_green"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialLightBlue"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialLime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lime"
+            android:background="@drawable/button_material_rounded_lime"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialLightBlue"
+            android:layout_alignParentRight="true"
+            />
+
+
+    <!-- eight row-->
+
+    <Button
+            android:id="@+id/btnMaterialYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:background="@drawable/button_material_rounded_yellow"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialGreen"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialAmber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amber"
+            android:background="@drawable/button_material_rounded_amber"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialGreen"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:background="@drawable/button_material_rounded_orange"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialGreen"
+            android:layout_alignParentRight="true"
+            />
+
+    <!-- ninth row -->
+
+    <Button
+            android:id="@+id/btnMaterialDeepOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deep Orange"
+            android:background="@drawable/button_material_rounded_deep_orange"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialYellow"
+            android:layout_alignParentLeft="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialBrown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brown"
+            android:background="@drawable/button_material_rounded_brown"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialYellow"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+            android:id="@+id/btnMaterialGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grey"
+            android:background="@drawable/button_material_rounded_grey"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialYellow"
+            android:layout_alignParentRight="true"
+            />
+
+    <!-- tenth row -->
+
+
+    <Button
+            android:id="@+id/btnMaterialBlueGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Grey"
+            android:background="@drawable/button_material_rounded_blue_grey"
+            android:textColor="@color/md_white_1000"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btnMaterialBrown"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+
+</RelativeLayout>
+

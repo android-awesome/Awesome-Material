@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/bootstrap_info_pressed" />
+            <stroke android:width="1dp" android:color="@color/bootstrap_info_pressed_border" />
+            <corners android:radius="@dimen/rounded_corner_bootstrap" />
+        </shape>
+    </item>
+
+    <!-- disabled-->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/bootstrap_info_disabled" />
+            <stroke android:width="1dp" android:color="@color/bootstrap_info_disabled_border" />
+            <corners android:radius="@dimen/rounded_corner_bootstrap" />
+        </shape>
+    </item>
+
+    <!-- default-->
+    <item>
+        <shape>
+            <solid android:color="@color/bootstrap_info" />
+            <stroke android:width="1dp" android:color="@color/bootstrap_info_border" />
+            <corners android:radius="@dimen/rounded_corner_bootstrap" />
+        </shape>
+    </item>
+
+</selector>
