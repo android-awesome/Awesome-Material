@@ -46,7 +46,7 @@ public class FontUtil {
                 materialDesignFont = Typeface.DEFAULT;
             }
         }
-        return fontAwesome;
+        return materialDesignFont;
     }
 
     /**
