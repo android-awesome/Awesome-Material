@@ -1,6 +1,6 @@
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_margin="10dp"
+        xmlns:awesome="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="20dp">
@@ -8,38 +8,197 @@
 
     <!-- first row -->
 
-    <TextView
+    <LinearLayout
             android:id="@+id/lblFontAwesome"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"
-            android:textColor="@color/md_grey_900"
-            android:text="blah"/>
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp">
 
-    <TextView
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_red_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="FontAwesome"
+                awesome:awesome_icon="FA_ROCKET"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_pink_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="FontAwesome"
+                awesome:awesome_icon="FA_HOME"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_purple_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="FontAwesome"
+                awesome:awesome_icon="FA_SHOPPING_CART"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_deep_purple_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="FontAwesome"
+                awesome:awesome_icon="FA_USERS"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_indigo_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="FontAwesome"
+                awesome:awesome_icon="FA_TRASH_O"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_blue_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="FontAwesome"
+                awesome:awesome_icon="FA_COGS"/>
+
+
+            </LinearLayout>
+
+<!-- second row-->
+
+    <LinearLayout
             android:id="@+id/lblMaterialDesign"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textSize="45sp"
-            android:layout_marginTop="20dp"
-            android:layout_below="@id/lblFontAwesome"
-            android:textColor="@color/md_red_700"
-            android:text="blah"/>
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/lblFontAwesome">
 
-    <TextView
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="@color/md_light_blue_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_icon="MD_REDEEM"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="@color/md_cyan_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_icon="MD_ACCOUNT_CIRCLE"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="@color/md_teal_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_icon="MD_HOME"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="@color/md_green_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_icon="MD_BRIGHTNESS_7"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="@color/md_light_green_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_icon="MD_ANDROID"/>
+
+
+    </LinearLayout>
+
+    <!-- third roow -->
+
+    <LinearLayout
             android:id="@+id/lblPixeden"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:layout_marginTop="20dp"
-            android:layout_below="@id/lblMaterialDesign"
-            android:textColor="@color/md_blue_600"
-            android:text="blah"
-            />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/lblMaterialDesign">
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_yellow_500"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_icon="PE_SUN"
+                android:background="@color/md_grey_900"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_amber_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_icon="PE_SCIENCE"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_orange_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_icon="PE_GIFT"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_deep_orange_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_icon="PE_STAR"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_brown_500"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_icon="PE_LEAF"/>
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/md_blue_grey_800"
+                android:layout_marginRight="10dp"
+                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_icon="PE_ROCKET"/>
+
+
+    </LinearLayout>
+
 
 
 </RelativeLayout>
