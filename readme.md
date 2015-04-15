@@ -47,3 +47,5 @@
 ![Square Buttons](/screenshots/device-2015-04-05-025002.png?raw=true)
 
 ![Rounded Buttons](/screenshots/device-2015-04-06-225323.png?raw=true)
+
+![Texts](/screenshots/device-2015-04-12-204536.png?raw=true)
