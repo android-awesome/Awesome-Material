@@ -1,0 +1,81 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:awesome="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+
+    <!-- first row -->
+
+    <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            awesome:awesome_rounded_corners="true"
+            awesome:awesome_type="bootstrap_danger"
+
+            awesome:awesome_icon="MD_ACCESSIBILITY"
+            awesome:awesome_font="MaterialDesign"
+
+            android:layout_margin="10dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+
+    <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        android:id="@+id/btnBootstrapPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        awesome:awesome_rounded_corners="true"
+        awesome:awesome_type="bootstrap_primary"
+
+        android:text="primary"
+        awesome:awesome_icon_left="MD_FACE_UNLOCK"
+        awesome:awesome_font="MaterialDesign"
+
+        android:layout_margin="10dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/btnBootstrapDefault"
+
+        android:padding="10dp"
+        android:textSize="20sp"
+            />
+
+    <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success"
+        awesome:awesome_rounded_corners="true"
+        awesome:awesome_type="bootstrap_success"
+
+
+        awesome:awesome_icon_left="MD_WB_SUNNY"
+        awesome:awesome_icon_right="MD_WB_CLOUDY"
+        awesome:awesome_font="MaterialDesign"
+
+        android:layout_margin="10dp"
+
+        android:layout_below="@id/btnBootstrapPrimary"
+        android:layout_alignParentLeft="true"
+
+        android:padding="10dp"
+        android:textSize="20sp"
+            />
+
+
+
+
+
+
+</RelativeLayout>
+
