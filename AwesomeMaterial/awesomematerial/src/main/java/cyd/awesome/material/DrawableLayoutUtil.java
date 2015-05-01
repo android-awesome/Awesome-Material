@@ -1,11 +1,9 @@
-package material.awesome.android.cyd.com.awesomematerial;
-
-import android.content.Context;
-import android.graphics.Typeface;
-import android.util.Log;
+package cyd.awesome.material;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cyd.awesome.material.R;
 
 
 /**
