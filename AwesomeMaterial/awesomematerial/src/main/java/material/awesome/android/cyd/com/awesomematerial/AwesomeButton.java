@@ -227,6 +227,8 @@ public class AwesomeButton extends LinearLayout {
             this.addView(lblRight);
         }
 
+        this.setGravity(Gravity.CENTER);
+
 
 
     }
