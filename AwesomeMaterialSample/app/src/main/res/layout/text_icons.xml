@@ -21,7 +21,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_red_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="FontAwesome"
+                awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_ROCKET"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -30,7 +30,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_pink_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="FontAwesome"
+                awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_HOME"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -39,7 +39,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_purple_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="FontAwesome"
+                awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_SHOPPING_CART"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -48,7 +48,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_deep_purple_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="FontAwesome"
+                awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_USERS"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -57,7 +57,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_indigo_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="FontAwesome"
+                awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_TRASH_O"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -66,7 +66,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_blue_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="FontAwesome"
+                awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_COGS"/>
 
 
@@ -88,7 +88,7 @@
                 android:textSize="60sp"
                 android:textColor="@color/md_light_blue_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_REDEEM"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -97,7 +97,7 @@
                 android:textSize="60sp"
                 android:textColor="@color/md_cyan_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_ACCOUNT_CIRCLE"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -106,7 +106,7 @@
                 android:textSize="60sp"
                 android:textColor="@color/md_teal_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_HOME"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -115,7 +115,7 @@
                 android:textSize="60sp"
                 android:textColor="@color/md_green_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_BRIGHTNESS_7"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -124,7 +124,7 @@
                 android:textSize="60sp"
                 android:textColor="@color/md_light_green_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="MaterialDesign"
+                awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_ANDROID"/>
 
 
@@ -147,7 +147,7 @@
                 android:textColor="@color/md_yellow_500"
                 android:layout_marginRight="10dp"
                 android:padding="5dp"
-                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_SUN"
                 android:background="@color/md_grey_900"/>
 
@@ -157,7 +157,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_amber_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_SCIENCE"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -166,7 +166,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_orange_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_GIFT"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -175,7 +175,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_deep_orange_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_STAR"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -184,7 +184,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_brown_500"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_LEAF"/>
 
         <material.awesome.android.cyd.com.awesomematerial.AwesomeText
@@ -193,7 +193,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/md_blue_grey_800"
                 android:layout_marginRight="10dp"
-                awesome:awesome_font="PixedenStroke"
+                awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_ROCKET"/>
 
 
