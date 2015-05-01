@@ -1,0 +1,460 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:awesome="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp">
+
+
+    <!-- first row -->
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            awesome:awesome_type="bootstrap_default"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="FA_HEART"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primary"
+            awesome:awesome_type="bootstrap_primary"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="FA_HOME"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="FA_BOOK"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_type="bootstrap_success"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            awesome:awesome_type="bootstrap_info"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="FA_USERS"
+            awesome:awesome_icon_left="FA_USER"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_below="@id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="FA_COGS"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_type="bootstrap_inverse"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            awesome:awesome_type="bootstrap_warning"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="FA_FLAG"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnBootstrapDanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danger"
+            awesome:awesome_type="bootstrap_danger"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="FA_ANDROID"
+            awesome:awesome_font="font_awesome"
+            awesome:awesome_rounded_corners="true"
+            />
+
+
+
+
+        </LinearLayout>
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/row2"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_below="@id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="MD_ACCESSIBILITY"
+            awesome:awesome_font="material_design"
+            awesome:awesome_type="material_red"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PINK"
+            awesome:awesome_type="material_pink"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="MD_ACCOUNT_BALANCE"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PURPLE"
+            awesome:awesome_type="material_purple"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="MD_BUG_REPORT"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row4"
+        android:layout_below="@id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialDeepPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEEP PURPLE"
+            awesome:awesome_type="material_deep_purple"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="MD_LOCK_OPEN"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialIndigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="MD_EXTENSION"
+            awesome:awesome_font="material_design"
+            awesome:awesome_type="material_indigo"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            awesome:awesome_type="material_blue"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="MD_SETTINGS"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row5"
+        android:layout_below="@id/row4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialLightBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIGHT BLUE"
+            awesome:awesome_type="material_light_blue"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="MD_ALARM"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialCyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CYAN"
+            awesome:awesome_type="material_cyan"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="MD_RADIO"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialTeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="MD_WARNING"
+            awesome:awesome_font="material_design"
+            awesome:awesome_type="material_teal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row6"
+        android:layout_below="@id/row5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="MD_BUSINESS"
+            awesome:awesome_font="material_design"
+            awesome:awesome_type="material_green"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialLightGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIGHT GREEN"
+            awesome:awesome_type="material_light_green"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="MD_CALL"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialLime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIME"
+            awesome:awesome_type="material_lime"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="MD_TEXTSMS"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row7"
+        android:layout_below="@id/row6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YELLOW"
+            awesome:awesome_type="material_yellow"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="MD_BRIGHTNESS_MEDIUM"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialAmber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="MD_BLUETOOTH_CONNECTED"
+            awesome:awesome_font="material_design"
+            awesome:awesome_type="material_amber"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORANGE"
+            awesome:awesome_type="material_orange"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="MD_GPS_FIXED"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row8"
+        android:layout_below="@id/row7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialDeepOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEEP ORANGE"
+            awesome:awesome_type="material_deep_orange"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_left="MD_LOCAL_FLORIST"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialBrown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BROWN"
+            awesome:awesome_type="material_brown"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_icon_right="MD_DIRECTIONS_WALK"
+            awesome:awesome_font="material_design"
+            awesome:awesome_rounded_corners="true"
+            />
+
+        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+            android:id="@+id/btnMaterialGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            awesome:awesome_icon="MD_DIRECTIONS_FERRY"
+            awesome:awesome_font="material_design"
+            awesome:awesome_type="material_grey"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            awesome:awesome_rounded_corners="true"
+            />
+
+    </LinearLayout>
+
+
+    <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        android:id="@+id/btnMaterialBlueGrey"
+        android:layout_below="@id/row8"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="BLUE GREY"
+        awesome:awesome_font="material_design"
+        awesome:awesome_icon_left="MD_CHEVRON_LEFT"
+        awesome:awesome_icon_right="MD_CHEVRON_RIGHT"
+        awesome:awesome_type="material_blue_grey"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        awesome:awesome_rounded_corners="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>
+
