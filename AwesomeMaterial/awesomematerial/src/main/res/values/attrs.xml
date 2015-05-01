@@ -25,9 +25,9 @@
 
     <!-- enums-->
     <attr name="awesome_font" format="enum">
-        <enum name="FontAwesome" value="0"/>
-        <enum name="MaterialDesign" value="1"/>
-        <enum name="PixedenStroke" value="2"/>
+        <enum name="font_awesome" value="0"/>
+        <enum name="material_design" value="1"/>
+        <enum name="pixeden_stroke" value="2"/>
     </attr>
 
     <attr name="awesome_type" format="enum">
