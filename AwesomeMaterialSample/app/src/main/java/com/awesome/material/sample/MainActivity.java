@@ -1,4 +1,4 @@
-package sample.material.awesome.android.cyd.com.awesomematerialsample;
+package com.awesome.material.sample;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import material.awesome.android.cyd.com.awesomematerial.FontCharacterMaps;
 import material.awesome.android.cyd.com.awesomematerial.FontUtil;
+import sample.material.awesome.android.cyd.com.awesomematerialsample.R;
 
 public class MainActivity extends ActionBarActivity {
 
