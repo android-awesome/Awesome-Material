@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="material.awesome.android.cyd.com.awesomematerial" >
+    package="cyd.awesome.material" >
 
     <application
         android:allowBackup="true"

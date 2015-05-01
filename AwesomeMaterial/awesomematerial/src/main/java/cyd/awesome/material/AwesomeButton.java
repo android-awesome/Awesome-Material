@@ -1,19 +1,16 @@
-package material.awesome.android.cyd.com.awesomematerial;
+package cyd.awesome.material;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import cyd.awesome.material.R;
 
 /**
  * Created by daniellevass on 12/04/15.

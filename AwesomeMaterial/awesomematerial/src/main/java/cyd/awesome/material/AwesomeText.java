@@ -1,9 +1,11 @@
-package material.awesome.android.cyd.com.awesomematerial;
+package cyd.awesome.material;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.widget.TextView;
+
+import cyd.awesome.material.R;
 
 /**
  * Created by daniellevass on 12/04/15.

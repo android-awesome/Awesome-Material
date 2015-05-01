@@ -1,4 +1,4 @@
-package material.awesome.android.cyd.com.awesomematerial;
+package cyd.awesome.material;
 
 import android.content.Context;
 import android.graphics.Typeface;

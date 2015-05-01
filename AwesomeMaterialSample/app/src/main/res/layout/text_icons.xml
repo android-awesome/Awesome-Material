@@ -15,7 +15,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp">
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -24,7 +24,7 @@
                 awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_ROCKET"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -33,7 +33,7 @@
                 awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_HOME"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -42,7 +42,7 @@
                 awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_SHOPPING_CART"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -51,7 +51,7 @@
                 awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_USERS"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -60,7 +60,7 @@
                 awesome:awesome_font="font_awesome"
                 awesome:awesome_icon="FA_TRASH_O"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -82,7 +82,7 @@
             android:layout_marginTop="30dp"
             android:layout_below="@id/lblFontAwesome">
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="60sp"
@@ -91,7 +91,7 @@
                 awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_REDEEM"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="60sp"
@@ -100,7 +100,7 @@
                 awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_ACCOUNT_CIRCLE"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="60sp"
@@ -109,7 +109,7 @@
                 awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_HOME"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="60sp"
@@ -118,7 +118,7 @@
                 awesome:awesome_font="material_design"
                 awesome:awesome_icon="MD_BRIGHTNESS_7"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="60sp"
@@ -140,7 +140,7 @@
             android:layout_marginTop="30dp"
             android:layout_below="@id/lblMaterialDesign">
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -151,7 +151,7 @@
                 awesome:awesome_icon="PE_SUN"
                 android:background="@color/md_grey_900"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -160,7 +160,7 @@
                 awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_SCIENCE"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -169,7 +169,7 @@
                 awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_GIFT"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -178,7 +178,7 @@
                 awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_STAR"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
@@ -187,7 +187,7 @@
                 awesome:awesome_font="pixeden_stroke"
                 awesome:awesome_icon="PE_LEAF"/>
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeText
+        <cyd.awesome.material.AwesomeText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"

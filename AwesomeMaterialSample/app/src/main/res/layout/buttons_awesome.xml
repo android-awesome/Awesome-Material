@@ -16,7 +16,7 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true">
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapDefault"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapSuccess"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
         android:layout_centerHorizontal="true">
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapInverse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapWarning"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnBootstrapDanger"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center_vertical">
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialRed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialPink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialPurple"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -192,7 +192,7 @@
 
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialDeepPurple"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -204,7 +204,7 @@
             awesome:awesome_font="material_design"
             awesome:awesome_rounded_corners="true"
             />
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialIndigo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialBlue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -243,7 +243,7 @@
 
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialLightBlue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -257,7 +257,7 @@
             />
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialCyan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -270,7 +270,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialTeal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -294,7 +294,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center_vertical">
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialGreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -306,7 +306,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialLightGreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -319,7 +319,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialLime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -345,7 +345,7 @@
 
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialYellow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -357,7 +357,7 @@
             awesome:awesome_font="material_design"
             awesome:awesome_rounded_corners="true"
             />
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialAmber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -369,7 +369,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialOrange"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -395,7 +395,7 @@
 
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialDeepOrange"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -409,7 +409,7 @@
             />
 
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialBrown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -422,7 +422,7 @@
             awesome:awesome_rounded_corners="true"
             />
 
-        <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+        <cyd.awesome.material.AwesomeButton
             android:id="@+id/btnMaterialGrey"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -437,7 +437,7 @@
     </LinearLayout>
 
 
-    <material.awesome.android.cyd.com.awesomematerial.AwesomeButton
+    <cyd.awesome.material.AwesomeButton
         android:id="@+id/btnMaterialBlueGrey"
         android:layout_below="@id/row8"
         android:layout_width="400dp"

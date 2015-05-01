@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.0"
 
     defaultConfig {
-        applicationId "sample.material.awesome.android.cyd.com.awesomematerialsample"
+        applicationId "cyd.awesome.material.sample"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
