@@ -45,12 +45,12 @@ xmlns:awesome="http://schemas.android.com/apk/res-auto"
     />
 ```
 
-`awesome:awesome_type` = enum = specifies the background color (and text color) for the button, options start with material_ or bootstrap_
-`awesome:awesome_rounded_corners` = bool = true specifies a rounded button background
-`awesome:awesome_icon_right` = enum = specifies which icon to go **right** of text, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden.
-`awesome:awesome_icon_left` = enum = specifies which icon to go **left** of text, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden.
-`awesome:awesome_icon` = enum = specifies which icon to go in the middle of the button, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden. Note, you **cannot** combine this with `android:text`.
-`awesome:awesome_font` = enum = specifies which font to use, must be either font_awesome, material_design, or pixeden_stroke.
+* `awesome:awesome_type` = enum = specifies the background color (and text color) for the button, options start with material_ or bootstrap_
+* `awesome:awesome_rounded_corners` = bool = true specifies a rounded button background
+* `awesome:awesome_icon_right` = enum = specifies which icon to go **right** of text, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden.
+* `awesome:awesome_icon_left` = enum = specifies which icon to go **left** of text, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden.
+* `awesome:awesome_icon` = enum = specifies which icon to go in the middle of the button, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden. Note, you **cannot** combine this with `android:text`.
+* `awesome:awesome_font` = enum = specifies which font to use, must be either font_awesome, material_design, or pixeden_stroke.
 
 ## Awesome TextViews
 
@@ -69,8 +69,8 @@ xmlns:awesome="http://schemas.android.com/apk/res-auto"
     awesome:awesome_icon="MD_HOME"/>
 ```
 
-`awesome:awesome_icon` = enum = specifies which icon to use, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden. Note, you **cannot** combine this with `android:text`.
-`awesome:awesome_font` = enum = specifies which font to use, must be either font_awesome, material_design, or pixeden_stroke.
+* `awesome:awesome_icon` = enum = specifies which icon to use, options start with FA_ for font awesome, MD_ for material design, and PE_ for pixeden. Note, you **cannot** combine this with * `android:text`.
+* `awesome:awesome_font` = enum = specifies which font to use, must be either font_awesome, material_design, or pixeden_stroke.
 
 ## Bonus Resources
 
