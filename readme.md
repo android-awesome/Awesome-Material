@@ -1,21 +1,25 @@
 #Android Awesome Material
 
-A library for Android that makes it super easy for developers to incorporate
-material design and bootstrap themes into their apps. Includes three separate
-font sets to chose from to for the icons; Font Awesome, Material Design Iconic
-Font, and Pixeden Stroke Icon Font Set.
+A library for Android that makes it super easy for developers to incorporate material design and bootstrap buttons with icons into their apps, or simple icon themed TextViews. Includes three separate font sets to chose from to for the icons; Font Awesome, Material Design Iconic Font, and Pixeden Stroke Icon Font Set. Also allows to chose between bootstrap or material design colour themes.
 
 ## Installation
 
-#### 1. Download Repo
+#### 1. Gradle
 
-* includes all the values / assets / drawables for your ease of use
+Simply add the following line to your module dependencies:
+```
+compile 'cyd.awesome.android:awesome-material:1.0.0'
+```
 
+Sometimes you need to restart Android Studio as per this [StackOverflow post](http://stackoverflow.com/questions/28079658/namespace-autofill-for-custom-attributes) to fix any autocomplete issues.
 
-* gradle (need halp!)
+#### 2. Add Module
 
+Alternatively, you can download the entire source code and extract all the source files once downloaded. To add your library into an Android Studio project open the module settings (right click on the module name) - and add the AwesomeMaterial folder.
 
-You will **need** to include the following in any XML layouts that are going to be using AwesomeButtons or AwesomeText:
+## Usage
+
+You will **need** to include the following in to any XML layouts that are going to be using AwesomeButtons or AwesomeText:
 
 ```
 xmlns:awesome="http://schemas.android.com/apk/res-auto"
@@ -75,11 +79,11 @@ xmlns:awesome="http://schemas.android.com/apk/res-auto"
 ## Bonus Resources
 
 
-* drawable file
+* drawable files = so you can make regular buttons into material or bootstrap themed buttons
 * values
-  * colors
-  * rounded corners
-* assets
+  * colors = all the material design and bootstrap theme colours
+  * rounded corners = change the value specified in this folder (for people who add the module, not via gradle) to change the roundedness of the button corners
+* assets = all the fonts in .ttf format
 
 ### References
 
