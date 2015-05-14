@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'cyd.awesome.android'
     PUBLISH_ARTIFACT_ID = 'awesome-material'
-    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_VERSION = '1.0'
 }
 
 android {

@@ -8,7 +8,7 @@ A library for Android that makes it super easy for developers to incorporate mat
 
 Simply add the following line to your module dependencies:
 ```
-compile 'cyd.awesome.android:awesome-material:1.0.0'
+compile 'cyd.awesome.android:awesome-material:1.0'
 ```
 
 Sometimes you need to restart Android Studio as per this [StackOverflow post](http://stackoverflow.com/questions/28079658/namespace-autofill-for-custom-attributes) to fix any autocomplete issues.
