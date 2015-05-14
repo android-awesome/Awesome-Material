@@ -1,6 +1,6 @@
 #Android Awesome Material
 
-A library for Android that makes it super easy for developers to incorporate material design and bootstrap buttons with icons into their apps, or simple icon themed TextViews. Includes three separate font sets to chose from to for the icons; Font Awesome, Material Design Iconic Font, and Pixeden Stroke Icon Font Set. Also allows to chose between bootstrap or material design colour themes.
+A library for Android that makes it super easy for developers to incorporate material design and bootstrap buttons with icons into their apps, or simple icon themed TextViews. Includes three separate font sets to chose from for icons; Font Awesome, Material Design Iconic Font, and Pixeden Stroke Icon Font Set. Also allows to chose between bootstrap or material design colour themes. Scroll down for pictures in use :-)
 
 ## Installation
 
